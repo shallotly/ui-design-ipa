@@ -22,7 +22,7 @@ def learn(id):
 
     global data
 
-    return render_template('recipe.html', data=data[int(id)])
+    return render_template('learn.html', data=data[int(id)])
 
 
 @app.route('/quiz/<id>')
