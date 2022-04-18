@@ -126,8 +126,8 @@ data = [
     }
 ]
 
-quiz_data = {
-    "1": {
+quiz_data = [
+    {
         "id": "1",
         "word": "hat",
         "answer": "b",
@@ -138,7 +138,7 @@ quiz_data = {
         "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey"
     },
 
-    "2": {
+    {
         "id": "2",
         "word": "hit",
         "answer": "a",
@@ -149,7 +149,7 @@ quiz_data = {
         "audio_b": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey"
     },
 
-    "3": {
+    {
         "id": "3",
         "word": "puppy",
         "answer": "b",
@@ -160,7 +160,7 @@ quiz_data = {
         "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
     },
 
-    "4": {
+    {
         "id": "4",
         "word": "hot",
         "answer": "a",
@@ -171,7 +171,7 @@ quiz_data = {
         "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey"
     },
 
-    "5": {
+    {
         "id": "5",
         "word": "eat",
         "answer": "b",
@@ -182,7 +182,7 @@ quiz_data = {
         "audio_b": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey"
     },
 
-    "6": {
+    {
         "id": "6",
         "word": "sample",
         "answer": "a",
@@ -192,47 +192,45 @@ quiz_data = {
         "audio_a": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
         "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
     },
-}
+]
 
-quiz_answer = {
-    "1": {
+quiz_answer = [
+    {
         "id": "1",
         "answer": "none",
         "correct": "b"
     },
 
-     "2": {
+    {
         "id": "2",
         "answer": "none",
         "correct": "a"
     },
 
-     "3": {
+    {
         "id": "3",
         "answer": "none",
         "correct": "b"
     },
 
-     "4": {
+    {
         "id": "4",
         "answer": "none",
         "correct": "a"
     },
 
-     "5": {
+    {
         "id": "5",
         "answer": "none",
         "correct": "b"
     },
 
-     "6": {
+    {
         "id": "6",
         "answer": "none",
         "correct": "a"
     },
-}
-
-score = 0
+]
 
 @app.route('/')
 def main():
@@ -243,7 +241,7 @@ def main():
 def learn(id):
 
     global data
-    
+
     return render_template('learn.html', data=data[int(id)-1], step=int(id), total=len(data), progress=int(int(id)/len(data)*100))
 
 @app.route('/quiz')
@@ -256,24 +254,19 @@ def quiz(id):
     global quiz_data
     global quiz_answer
 
-    return render_template('quiz.html', quiz=quiz_data[int(id)], answer=quiz_answer[int(id)])
+    return render_template('quiz.html', data=quiz_data[int(id)-1], step=int(id), total=len(quiz_data), progress=int(int(id)/len(quiz_data)*100), answer=quiz_answer[int(id)-1])
 
 @app.route('/quiz-end')
 def quiz_end():
-    return render_template('quiz-end.html', score="TODO CHANGE THIS")
 
-@app.route('/quiz-score')
-def score():
-
-    global quiz_data
     global quiz_answer
-    global final_score
-
-    final_score = score
     score = 0
 
-    return render_template('score.html', quiz=quiz_data, answer=quiz_answer, score=final_score)
+    for item in quiz_answer:
+        if item['answer'] == item['correct']:
+            score = score + 1
 
+    return render_template('quiz-end.html', score=score)
 
 @app.route('/add_answer', methods=['GET', 'POST'])
 def add_answer():

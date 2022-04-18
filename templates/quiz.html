@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+<!-- PROGRESS BAR -->
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: {{progress}}%;" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100">Quesion {{step}}/{{total}}</div>
+</div>
+
+<!-- QUIZ CONTENT -->
+
+<div class="mt-5 mb-3">
+    <h3 class="center">{{ "What is the correct vowel?" | safe}}</h3>
+</div>
+
+<!-- BACK/NEXT BUTTONS -->
+
+<nav class="navbar fixed-bottom bg-light d-flex justify-content-between">
+    {% if step|int == 1 %}
+    <span></span>
+    {% else %}
+    <a class="btn btn-primary btn-lg" href="/quiz/{{step - 1}}">Back</a>
+    {% endif %}
+    {% if step|int == total %}
+    <a class="btn btn-primary btn-lg" href="/quiz-end">Next</a>
+    {% else %}
+    <a class="btn btn-primary btn-lg" href="/quiz/{{step + 1}}">Next</a>
+    {% endif %}
+</nav>
+
+{% endblock %}
