@@ -119,7 +119,7 @@ def main():
     return render_template('index.html')
 
 @app.route('/quiz')
-def main():
+def quiz_main():
 
     return render_template('quiz-index.html')
 
