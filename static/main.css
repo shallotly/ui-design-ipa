@@ -21,3 +21,9 @@
   padding-bottom: 80px;
   font-size: 150px;
 }
+
+.quiz-btn{
+  display: block;
+  text-align: center;
+  width: 100%;
+}
