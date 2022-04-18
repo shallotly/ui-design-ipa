@@ -14,3 +14,10 @@
 .center {
   text-align: center;
 }
+
+.quiz-word{
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 150px;
+}
