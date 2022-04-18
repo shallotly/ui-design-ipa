@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+<!-- PROGRESS BAR -->
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: {{progress}}%;" aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100">Learning module {{step}}/{{total}}</div>
+</div>
+
+<!-- LESSON CONTENT -->
+
+<div class="mt-5 mb-3">
+    <h3>{{data["text"] | safe}}</h3>
+
+    <!-- explanation text for vowel pairs -->
+    {% if data["explanation"] is defined %}
+    {% for expl in data["explanation"] %}
+    <h4 class="ml-5 mb-0">{{expl | safe}}</h4>
+    {% endfor %}
+    {% endif %}
+
+    <!-- action text -->
+    {% if data["actionText"] is defined %}
+    <h3 class="mt-5">{{data["actionText"] | safe}}</h3>
+    {% endif %}
+
+    <!-- image -->
+    {% if data["image"] is defined %}
+    <div class="d-flex justify-content-center mt-4">
+	<img class="hero-image" src='{{data["image"]}}' alt="IPA vowel chart"/>
+    </div>
+    {% endif %}
+
+    <!-- practice -->
+    {% if data["practice"] is defined %}
+    <div class="d-flex justify-content-center mt-4">
+	<table border="1">
+	    {% for row in data["practice"] %}
+	    <tr>
+		<td class="h3 px-4 py-3">{{row["english"] | safe}}</td>
+		<td class="text-center h3 px-4 py-3">{{row["vowel"] | safe}}</tr>
+	    </tr>
+	    {% endfor %}
+	</table>
+    </div>
+    {% endif %}
+</div>
+
+<!-- BACK/NEXT BUTTONS -->
+
+<nav class="navbar fixed-bottom bg-light d-flex justify-content-between">
+    {% if step|int == 1 %}
+    <span></span>
+    {% else %}
+    <a class="btn btn-primary btn-lg" href="/learn/{{step - 1}}">Back</a>
+    {% endif %}
+    {% if step|int == total %}
+    <a class="btn btn-primary btn-lg" href="/quiz">Next</a>
+    {% else %}
+    <a class="btn btn-primary btn-lg" href="/learn/{{step + 1}}">Next</a>
+    {% endif %}
+</nav>
+
+{% endblock %}

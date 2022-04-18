@@ -5,7 +5,125 @@ app = Flask(__name__)
 
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
-data = [ ]
+data = [
+    {
+        "text": "<b>This is the IPA vowel chart.</b> (IPA stands for International Phonetic Alphabet.) <br/> It shows all of the vowel sounds a human mouth can make.",
+        "image": "/static/ipa-1.png"
+    },
+    {
+        "text": "<b>These are the vowel sounds in American English.</b> (Don't worry about position.)",
+        "image": "/static/ipa-2.png"
+    },
+    {
+        "text": "Now we'll take a closer look at some <b>commonly confused vowels</b>.",
+        "image": "/static/ipa-2.png"
+    },
+    {
+        "text": "Pair 1: [i] and [I]",
+        "explanation": [
+            '[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
+            '[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>'
+        ],
+        "actionText": "Do you hear a difference?",
+        "image": "/static/ipa-2.png"
+    },
+    {
+        "text": "Pair 1: [i] and [I]",
+        "explanation": [
+            '[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
+            '[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>'
+        ],
+        "actionText": "<b>Practice!</b> Is it [i] or [I]?",
+        "practice": [
+            {
+                "english": "sheet",
+                "vowel": "[i]"
+            },
+            {
+                "english": "pit",
+                "vowel": "[I]"
+            },
+            {
+                "english": "chip",
+                "vowel": "[I]"
+            },
+            {
+                "english": "feet",
+                "vowel": "[i]"
+            }
+        ]
+    },
+    {
+        "text": "Pair 2: [æ] and [a]",
+        "explanation": [
+            '[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
+            '[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>'
+        ],
+        "actionText": "Do you hear a difference?",
+        "image": "/static/ipa-2.png"
+    },
+    {
+        "text": "Pair 2: [æ] and [a]",
+        "explanation": [
+            '[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
+            '[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>'
+        ],
+        "actionText": "<b>Practice!</b> Is it [æ] or [a]?",
+        "practice": [
+            {
+                "english": "olive",
+                "vowel": "[a]"
+            },
+            {
+                "english": "shackle",
+                "vowel": "[æ]"
+            },
+            {
+                "english": "sock",
+                "vowel": "[a]"
+            },
+            {
+                "english": "apple",
+                "vowel": "[æ]"
+            }
+        ]
+    },
+    {
+        "text": "Pair 3: [ʌ] and [ə]",
+        "explanation": [
+            '[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
+            '[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>'
+        ],
+        "actionText": "Do you hear a difference?",
+        "image": "/static/ipa-2.png"
+    },
+    {
+        "text": "Pair 3: [ʌ] and [ə]",
+        "explanation": [
+            '[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
+            '[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>'
+        ],
+        "actionText": "<b>Practice!</b> Is it [ʌ] or [ə] in the <u>underlined</u> syllable? <small>(Hint: Is the syllable stressed?)</small>",
+        "practice": [
+            {
+                "english": "Co<u>lum</u>bia",
+                "vowel": "[ʌ]"
+            },
+            {
+                "english": "Tes<u>la</u>",
+                "vowel": "[ə]"
+            },
+            {
+                "english": "bat<u>ter</u>y",
+                "vowel": "[ə]"
+            },
+            {
+                "english": "<u>un</u>der",
+                "vowel": "[ʌ]"
+            }
+        ]
+    }
+]
 
 quiz = {
     "1": {
@@ -123,9 +241,12 @@ def main():
 def learn(id):
 
     global data
+    
+    return render_template('learn.html', data=data[int(id)-1], step=int(id), total=len(data), progress=int(int(id)/len(data)*100))
 
-    return render_template('learn.html', data=data[int(id)])
-
+@app.route('/quiz')
+def quiz_start():
+    return render_template('quiz-start.html')
 
 @app.route('/quiz/<id>')
 def quiz(id):
