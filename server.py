@@ -118,6 +118,11 @@ def main():
 
     return render_template('index.html')
 
+@app.route('/quiz')
+def main():
+
+    return render_template('quiz-index.html')
+
 
 @app.route('/learn/<id>')
 def learn(id):
