@@ -9,6 +9,7 @@ $(document).ready(function () {
 
     if (select == correct){
       $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
+      $("#quiz-button-b").prop("disabled", true);
     }
     else {
       $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
@@ -45,6 +46,7 @@ $(document).ready(function () {
 
     if (select == correct){
       $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
+      $("#quiz-button-a").prop("disabled", true);
     }
     else {
       $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
