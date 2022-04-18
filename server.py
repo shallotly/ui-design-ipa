@@ -274,10 +274,10 @@ def add_answer():
     global quiz_answer
 
     json_data = request.get_json()
-    # id = json_data["id"]
-    # answer = json_data["answer"]
-    #
-    # quiz_answer[int(id)-1]["answer"] = answer
+    id = json_data["id"]
+    answer = json_data["answer"]
+
+    quiz_answer[int(id)-1]["answer"] = answer
 
     return jsonify(answers = quiz_answer)
 

@@ -10,7 +10,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "POST",
-      url: "add_answer",
+      url: "/add_answer",
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       data: JSON.stringify(data_to_save),
@@ -37,7 +37,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "POST",
-      url: "add_answer",
+      url: "/add_answer",
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       data: JSON.stringify(data_to_save),
