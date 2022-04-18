@@ -17,13 +17,28 @@
 
 .quiz-word{
   display: block;
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 80px;
   font-size: 150px;
+}
+
+.client-info{
+  display: block;
+  height: 40px;
+  padding-top: 20px;
+  font-size: 40px;
 }
 
 .quiz-btn{
   display: block;
   text-align: center;
   width: 100%;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
 }

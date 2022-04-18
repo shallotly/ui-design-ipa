@@ -10,10 +10,18 @@ $(document).ready(function () {
     if (select == correct){
       $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
       $("#quiz-button-b").prop("disabled", true);
+
+      var clientInfo = $("<div></div>");
+      clientInfo.html("Nice!");
+      $("#client-info").append(clientInfo).addClass('green');
     }
     else {
       $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
       $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
+
+      var clientInfo = $("<div></div>");
+      clientInfo.html("Oops!");
+      $("#client-info").append(clientInfo).addClass('red');
     }
 
 
@@ -47,10 +55,18 @@ $(document).ready(function () {
     if (select == correct){
       $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
       $("#quiz-button-a").prop("disabled", true);
+
+      var clientInfo = $("<div></div>");
+      clientInfo.html("Nice!");
+      $("#client-info").append(clientInfo).addClass('green');
     }
     else {
       $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
       $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
+
+      var clientInfo = $("<div></div>");
+      clientInfo.html("Oops!");
+      $("#client-info").append(clientInfo).addClass('red');
     }
 
     var data_to_save = {
