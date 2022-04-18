@@ -239,12 +239,6 @@ def main():
 
     return render_template('index.html')
 
-@app.route('/quiz')
-def quiz_main():
-
-    return render_template('quiz-index.html')
-
-
 @app.route('/learn/<id>')
 def learn(id):
 
