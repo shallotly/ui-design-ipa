@@ -258,6 +258,10 @@ def quiz(id):
 
     return render_template('quiz.html', quiz=quiz_data[int(id)], answer=quiz_answer[int(id)])
 
+@app.route('/quiz-end')
+def quiz_end():
+    return render_template('quiz-end.html', score="TODO CHANGE THIS")
+
 @app.route('/quiz-score')
 def score():
 
