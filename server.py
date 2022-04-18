@@ -268,20 +268,18 @@ def quiz_end():
 
     return render_template('quiz-end.html', score=score)
 
+
 @app.route('/add_answer', methods=['GET', 'POST'])
 def add_answer():
     global quiz_answer
-    global score
 
     json_data = request.get_json()
-    id = json_data["id"]
-    answer = json_data["answer"]
+    # id = json_data["id"]
+    # answer = json_data["answer"]
+    #
+    # quiz_answer[int(id)-1]["answer"] = answer
 
-    quiz_answer[id]["answer"] = answer
-    if answer == quiz_answer[id]["correct"]:
-        score += 1
-
-    return jsonify(answer = quiz_answer, score = score)
+    return jsonify(answers = quiz_answer)
 
 
 if __name__ == '__main__':
