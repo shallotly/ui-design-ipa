@@ -22,8 +22,14 @@ data = [
     {
         "text": "Pair 1: [i] and [I]",
         "explanation": [
-            '[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
-            '[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>'
+            {
+                'text':'[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
+                "audio": "/static/audio/ipa/close.ogg"
+            },
+            {
+                'text':'[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>',
+                "audio": "/static/audio/ipa/close-near.ogg"
+            },
         ],
         "actionText": "Do you hear a difference?",
         "image": "/static/ipa-2.png"
@@ -31,8 +37,14 @@ data = [
     {
         "text": "Pair 1: [i] and [I]",
         "explanation": [
-            '[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
-            '[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>'
+            {
+                'text':'[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
+                "audio": "/static/audio/ipa/close.ogg"
+            },
+            {
+                'text':'[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>',
+                "audio": "/static/audio/ipa/close-near.ogg"
+            },
         ],
         "actionText": "<b>Practice!</b> Is it [i] or [I]?",
         "practice": [
@@ -57,8 +69,14 @@ data = [
     {
         "text": "Pair 2: [æ] and [a]",
         "explanation": [
-            '[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
-            '[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>'
+            {
+                'text':'[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
+                "audio": "/static/audio/ipa/open-near.ogg"
+            },
+            {
+                'text':'[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>',
+                "audio": "/static/audio/ipa/open.ogg"
+            },
         ],
         "actionText": "Do you hear a difference?",
         "image": "/static/ipa-2.png"
@@ -66,8 +84,14 @@ data = [
     {
         "text": "Pair 2: [æ] and [a]",
         "explanation": [
-            '[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
-            '[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>'
+            {
+                'text':'[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
+                "audio": "/static/audio/ipa/open-near.ogg"
+            },
+            {
+                'text':'[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>',
+                "audio": "/static/audio/ipa/open.ogg"
+            },
         ],
         "actionText": "<b>Practice!</b> Is it [æ] or [a]?",
         "practice": [
@@ -92,8 +116,14 @@ data = [
     {
         "text": "Pair 3: [ʌ] and [ə]",
         "explanation": [
-            '[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
-            '[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>'
+            {
+                'text':'[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
+                "audio": "/static/audio/ipa/mid-back.ogg"
+            },
+            {
+                'text':'[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>',
+                "audio": "/static/audio/ipa/mid-central.ogg"
+            },
         ],
         "actionText": "Do you hear a difference?",
         "image": "/static/ipa-2.png"
@@ -101,8 +131,14 @@ data = [
     {
         "text": "Pair 3: [ʌ] and [ə]",
         "explanation": [
-            '[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
-            '[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>'
+            {
+                'text':'[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
+                "audio": "/static/audio/ipa/mid-back.ogg"
+            },
+            {
+                'text':'[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>',
+                "audio": "/static/audio/ipa/mid-central.ogg"
+            },
         ],
         "actionText": "<b>Practice!</b> Is it [ʌ] or [ə] in the <u>underlined</u> syllable? <small>(Hint: Is the syllable stressed?)</small>",
         "practice": [

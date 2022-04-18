@@ -17,7 +17,13 @@
     <!-- explanation text for vowel pairs -->
     {% if data["explanation"] is defined %}
     {% for expl in data["explanation"] %}
-    <h4 class="ml-5 mb-0">{{expl | safe}}</h4>
+    <div>
+        <audio src='{{expl["audio"]}}'>
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <h4 class="ml-5 mb-0">{{expl["text"] | safe}}</h4>
+    </div>
     {% endfor %}
     {% endif %}
 
