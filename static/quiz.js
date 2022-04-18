@@ -8,11 +8,11 @@ $(document).ready(function () {
     console.log(select)
 
     if (select == correct){
-      $(this).removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+      $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
     }
     else {
-      $(this).removeClass('btn-primary').addClass('btn-danger').addClass('disabled');
-      $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+      $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
+      $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
     }
 
 
@@ -44,11 +44,11 @@ $(document).ready(function () {
     console.log(select)
 
     if (select == correct){
-      $(this).removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+      $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
     }
     else {
-      $(this).removeClass('btn-primary').addClass('btn-danger').addClass('disabled');
-      $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+      $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
+      $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
     }
 
     var data_to_save = {
