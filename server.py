@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask
 from flask import render_template
 from flask import Response, request, jsonify
@@ -7,7 +8,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 data = [ ]
 
-quiz = {
+quiz_data = {
     "1": {
         "id": "1",
         "word": "hat",
@@ -113,6 +114,8 @@ quiz_answer = {
     },
 }
 
+score = 0
+
 @app.route('/')
 def main():
 
@@ -135,30 +138,38 @@ def learn(id):
 @app.route('/quiz/<id>')
 def quiz(id):
 
-    global quiz
+    global quiz_data
     global quiz_answer
 
-    return render_template('quiz.html', quiz=quiz[int(id)], answer=quiz_answer[int(id)])
+    return render_template('quiz.html', quiz=quiz_data[int(id)], answer=quiz_answer[int(id)])
 
 @app.route('/quiz-score')
 def score():
 
-    global quiz
+    global quiz_data
     global quiz_answer
+    global final_score
 
-    return render_template('score.html', quiz=quiz, answer=quiz_answer)
+    final_score = score
+    score = 0
+
+    return render_template('score.html', quiz=quiz_data, answer=quiz_answer, score=final_score)
+
 
 @app.route('/add_answer', methods=['GET', 'POST'])
 def add_answer():
     global quiz_answer
+    global score
 
     json_data = request.get_json()
     id = json_data["id"]
     answer = json_data["answer"]
 
     quiz_answer[id]["answer"] = answer
+    if answer == quiz_answer[id]["correct"]:
+        score += 1
 
-    return jsonify(answer = quiz_answer)
+    return jsonify(answer = quiz_answer, score = score)
 
 
 if __name__ == '__main__':
