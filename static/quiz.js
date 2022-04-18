@@ -1,7 +1,20 @@
 $(document).ready(function () {
+
+  var correct = quiz_answer["correct"]
+  console.log(correct)
+
   $("#quiz-button-a").click(function() {
     var select = "a"
     console.log(select)
+
+    if (select == correct){
+      $(this).removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+    }
+    else {
+      $(this).removeClass('btn-primary').addClass('btn-danger').addClass('disabled');
+      $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+    }
+
 
     var data_to_save = {
           "id": id,
@@ -29,6 +42,14 @@ $(document).ready(function () {
   $("#quiz-button-b").click(function() {
     var select = "b"
     console.log(select)
+
+    if (select == correct){
+      $(this).removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+    }
+    else {
+      $(this).removeClass('btn-primary').addClass('btn-danger').addClass('disabled');
+      $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').addClass('disabled');
+    }
 
     var data_to_save = {
           "id": id,

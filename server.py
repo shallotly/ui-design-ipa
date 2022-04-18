@@ -229,7 +229,7 @@ quiz_answer = [
         "id": "6",
         "answer": "none",
         "correct": "a"
-    },
+    }
 ]
 
 @app.route('/')

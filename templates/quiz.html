@@ -4,7 +4,7 @@
 <script type="text/javascript" src="{{ url_for('static', filename = 'quiz.js') }}"></script>
 <script>
     var id = {{ data["id"] | safe}}
-    var quiz_answer = {{ answer["correct"] | safe}}
+    var quiz_answer = {{ answer | safe}}
 </script>
 {% endblock %}
 
