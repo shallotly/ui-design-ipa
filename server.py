@@ -17,52 +17,56 @@ data = [
     },
     {
         "text": "Now we'll take a closer look at some <b>commonly confused vowels</b>.",
-        "image": "/static/ipa-2.png"
+        "image": "/static/ipa-3.png"
     },
     {
         "text": "Pair 1: [i] and [I]",
         "explanation": [
             {
                 'text':'[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
-                "audio": "/static/audio/ipa/close.ogg"
+                "audio": "/static/audio/ipa/i.mp3"
             },
             {
                 'text':'[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>',
-                "audio": "/static/audio/ipa/close-near.ogg"
+                "audio": "/static/audio/ipa/short-i.mp3"
             },
         ],
         "actionText": "Do you hear a difference?",
-        "image": "/static/ipa-2.png"
+        "image": "/static/ipa-4.png"
     },
     {
         "text": "Pair 1: [i] and [I]",
         "explanation": [
             {
                 'text':'[i] is the <b>long "i"</b> sound in English. It is the vowel sound in <b>"speed."</b>',
-                "audio": "/static/audio/ipa/close.ogg"
+                "audio": "/static/audio/ipa/i.mp3"
             },
             {
                 'text':'[I] is the <b>short "i"</b> sound in English. It is the vowel sound in <b>"spit."</b>',
-                "audio": "/static/audio/ipa/close-near.ogg"
+                "audio": "/static/audio/ipa/short-i.mp3"
             },
         ],
         "actionText": "<b>Practice!</b> Is it [i] or [I]?",
         "practice": [
             {
                 "english": "sheet",
-                "vowel": "[i]"
+                "vowel": "[i]",
+                "audio": "/static/audio/ipa/i.mp3"
             },
             {
                 "english": "pit",
-                "vowel": "[I]"
+                "vowel": "[I]",
+                "audio": "/static/audio/ipa/short-i.mp3"
             },
             {
                 "english": "chip",
-                "vowel": "[I]"
+                "vowel": "[I]",
+                "audio": "/static/audio/ipa/short-i.mp3"
             },
             {
                 "english": "feet",
-                "vowel": "[i]"
+                "vowel": "[i]",
+                "audio": "/static/audio/ipa/i.mp3"
             }
         ]
     },
@@ -71,45 +75,49 @@ data = [
         "explanation": [
             {
                 'text':'[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
-                "audio": "/static/audio/ipa/open-near.ogg"
+                "audio": "/static/audio/ipa/ae.mp3"
             },
             {
                 'text':'[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>',
-                "audio": "/static/audio/ipa/open.ogg"
+                "audio": "/static/audio/ipa/a.mp3"
             },
         ],
         "actionText": "Do you hear a difference?",
-        "image": "/static/ipa-2.png"
+        "image": "/static/ipa-5.png"
     },
     {
         "text": "Pair 2: [æ] and [a]",
         "explanation": [
             {
                 'text':'[æ] is the <b>short "a"</b> sound in English. It is the vowel sound in <b>"cat."</b>',
-                "audio": "/static/audio/ipa/open-near.ogg"
+                "audio": "/static/audio/ipa/ae.mp3"
             },
             {
                 'text':'[a] is the <b>"ah"</b> sound in English. It is the vowel sound in <b>"father."</b>',
-                "audio": "/static/audio/ipa/open.ogg"
+                "audio": "/static/audio/ipa/a.mp3"
             },
         ],
         "actionText": "<b>Practice!</b> Is it [æ] or [a]?",
         "practice": [
             {
                 "english": "olive",
-                "vowel": "[a]"
+                "vowel": "[a]",
+                "audio": "/static/audio/ipa/a.mp3"
             },
             {
                 "english": "shackle",
-                "vowel": "[æ]"
+                "vowel": "[æ]",
+                "audio": "/static/audio/ipa/ae.mp3"
             },
             {
                 "english": "sock",
-                "vowel": "[a]"
+                "vowel": "[a]",
+                "audio": "/static/audio/ipa/a.mp3"
             },
             {
                 "english": "apple",
-                "vowel": "[æ]"
+                "vowel": "[æ]",
+                "audio": "/static/audio/ipa/ae.mp3"
             }
         ]
     },
@@ -118,45 +126,49 @@ data = [
         "explanation": [
             {
                 'text':'[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
-                "audio": "/static/audio/ipa/mid-back.ogg"
+                "audio": "/static/audio/ipa/uh-stressed.mp3"
             },
             {
                 'text':'[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>',
-                "audio": "/static/audio/ipa/mid-central.ogg"
+                "audio": "/static/audio/ipa/uh-unstressed.mp3"
             },
         ],
         "actionText": "Do you hear a difference?",
-        "image": "/static/ipa-2.png"
+        "image": "/static/ipa-6.png"
     },
     {
         "text": "Pair 3: [ʌ] and [ə]",
         "explanation": [
             {
                 'text':'[ʌ] is the "uh" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>"<u>jus</u>tice."</b>',
-                "audio": "/static/audio/ipa/mid-back.ogg"
+                "audio": "/static/audio/ipa/uh-stressed.mp3"
             },
             {
                 'text':'[ə] is the "uh" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>"Ca<u>nada</u>."</b>',
-                "audio": "/static/audio/ipa/mid-central.ogg"
+                "audio": "/static/audio/ipa/uh-unstressed.mp3"
             },
         ],
         "actionText": "<b>Practice!</b> Is it [ʌ] or [ə] in the <u>underlined</u> syllable? <small>(Hint: Is the syllable stressed?)</small>",
         "practice": [
             {
                 "english": "Co<u>lum</u>bia",
-                "vowel": "[ʌ]"
+                "vowel": "[ʌ]",
+                "audio": "/static/audio/ipa/uh-stressed.mp3"
             },
             {
                 "english": "Tes<u>la</u>",
-                "vowel": "[ə]"
+                "vowel": "[ə]",
+                "audio": "/static/audio/ipa/uh-unstressed.mp3"
             },
             {
                 "english": "bat<u>ter</u>y",
-                "vowel": "[ə]"
+                "vowel": "[ə]",
+                "audio": "/static/audio/ipa/uh-unstressed.mp3"
             },
             {
                 "english": "<u>un</u>der",
-                "vowel": "[ʌ]"
+                "vowel": "[ʌ]",
+                "audio": "/static/audio/ipa/uh-stressed.mp3"
             }
         ]
     }
