@@ -148,7 +148,7 @@ data = [
                 "audio": "/static/audio/ipa/uh-unstressed.mp3"
             },
         ],
-        "actionText": "<b>Practice!</b> Is it [ʌ] or [ə] in the <u>underlined</u> syllable? <small>(Hint: Is the syllable stressed?)</small>",
+        "actionText": "<b>Practice!</b> Is it [ʌ] or [ə] in the <u>underlined</u> syllable? <small><em>(Hint: Is the syllable stressed?)</em></small>",
         "practice": [
             {
                 "english": "Co<u>lum</u>bia",
@@ -331,4 +331,4 @@ def add_answer():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', debug=True)
+    app.run(host='127.0.0.1', debug=True, port="5004")

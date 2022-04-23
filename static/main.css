@@ -11,8 +11,31 @@
     margin-bottom: 3em;
 }
 
+.play {
+    background-image: url("/static/audio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.bordered {
+  border: 2px solid black;
+  padding: 2px;
+}
+
 .center {
   text-align: center;
+}
+
+.practice-answer {
+  display: none;
+  text-align: center;
+  width: 130px;
+  height: 39px;
 }
 
 .quiz-word{

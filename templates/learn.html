@@ -1,7 +1,14 @@
 {% extends "layout.html" %}
 
 
+{% block javascript %}
+<script type="text/javascript" src="{{ url_for('static', filename = 'learn.js') }}"></script>
+{% endblock %}
+
+
 {% block content %}
+
+{% set ns = namespace(audioID=1) %}  
 
 <!-- PROGRESS BAR -->
 
@@ -18,11 +25,15 @@
     {% if data["explanation"] is defined %}
     {% for expl in data["explanation"] %}
     <div>
-        <audio src='{{expl["audio"]}}'>
+        <audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
             Your browser does not support the
             <code>audio</code> element.
         </audio>
-        <h4 class="ml-5 mb-0">{{expl["text"] | safe}}</h4>
+        <h4 class="ml-5">
+            <span class="play" data-id="audio-{{ns.audioID}}"></span>
+            {{expl["text"] | safe}}
+        </h4>
+        {% set ns.audioID = ns.audioID + 1 %}
     </div>
     {% endfor %}
     {% endif %}
@@ -46,7 +57,18 @@
 	    {% for row in data["practice"] %}
 	    <tr>
 		<td class="h3 px-4 py-3">{{row["english"] | safe}}</td>
-		<td class="text-center h3 px-4 py-3">{{row["vowel"] | safe}}</tr>
+		<td class="text-center h3 px-4 py-3">
+            <btn class="practice-spoiler btn btn-secondary" id="{{ns.audioID}}">Reveal answer</btn>
+            <div class="practice-answer" id="practice-answer-{{ns.audioID}}">
+                {{row["vowel"] | safe}}
+                <audio id="audio-{{ns.audioID}}" src='{{row["audio"]}}'>
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+                <span class="play" data-id="audio-{{ns.audioID}}"></span>
+                {% set ns.audioID = ns.audioID + 1 %}
+            </div>
+        </td>
 	    </tr>
 	    {% endfor %}
 	</table>
