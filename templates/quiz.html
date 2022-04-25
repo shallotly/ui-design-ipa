@@ -69,11 +69,7 @@
 <!-- BACK/NEXT BUTTONS -->
 
 <nav class="navbar fixed-bottom bg-light d-flex justify-content-between">
-    {% if step|int == 1 %}
     <span></span>
-    {% else %}
-    <a class="btn btn-primary btn-lg" href="/quiz/{{step - 1}}">Back</a>
-    {% endif %}
     {% if step|int == total %}
     <a class="btn btn-primary btn-lg" href="/quiz-end">Next</a>
     {% else %}
