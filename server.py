@@ -400,7 +400,16 @@ def quiz(id):
     global quiz_data
     global quiz_answer
 
-    return render_template('quiz.html', data=quiz_data[int(id)-1], step=int(id), total=len(quiz_data), progress=int(int(id)/len(quiz_data)*100), answer=quiz_answer[int(id)-1])
+    if int(id) <= 6:
+        answer=quiz_answer[int(id)-1]
+
+    if id == '7':
+        answer=quiz_answer[6:9]
+
+    if id == '8':
+        answer=quiz_answer[9:11]
+
+    return render_template('quiz.html', data=quiz_data[int(id)-1], step=int(id), total=len(quiz_data), progress=int(int(id)/len(quiz_data)*100), answer=answer)
 
 @app.route('/quiz-end')
 def quiz_end():
