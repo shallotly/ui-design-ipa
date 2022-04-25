@@ -30,12 +30,20 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-3">
-        <button class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
+        <audio id="player_1" src={{data["audio_a"] | safe}}></audio>
+        <div> 
+          <button class="quiz_player" onclick="document.getElementById('player_1').play()"></button> 
+        </div>
       </div>
       <div class="col-md-2">
       </div>
       <div class="col-md-3">
-        <button class="btn btn-primary btn-lg quiz-btn" id="quiz-button-b">{{ data["choice_b"] | safe}}</button>
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-b">{{ data["choice_b"] | safe}}</button>
+        <audio id="player_2" src={{data["audio_b"] | safe}}></audio>
+        <div> 
+          <button class="quiz_player" onclick="document.getElementById('player_2').play()"></button> 
+        </div>
       </div>
       <div class="col-md-2">
       </div>
@@ -47,17 +55,29 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-2">
-        <button class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
+        <audio id="player_1" src={{data["audio_a"] | safe}}></audio>
+        <div> 
+          <button class="quiz_player" onclick="document.getElementById('player_1').play()"></button> 
+        </div>
       </div>
       <div class="col-md-1">
       </div>
       <div class="col-md-2">
-        <button class="btn btn-primary btn-lg quiz-btn" id="quiz-button-b">{{ data["choice_b"] | safe}}</button>
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-b">{{ data["choice_b"] | safe}}</button>
+        <audio id="player_2" src={{data["audio_b"] | safe}}></audio>
+        <div> 
+          <button class="quiz_player" onclick="document.getElementById('player_2').play()"></button> 
+        </div>
       </div>
       <div class="col-md-1">
       </div>
       <div class="col-md-2">
-        <button class="btn btn-primary btn-lg quiz-btn" id="quiz-button-c">{{ data["choice_c"] | safe}}</button>
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-c">{{ data["choice_c"] | safe}}</button>
+        <audio id="player_3" src={{data["audio_c"] | safe}}></audio>
+        <div> 
+          <button class="quiz_player" onclick="document.getElementById('player_3').play()"></button> 
+        </div>
       </div>
       <div class="col-md-2">
       </div>
