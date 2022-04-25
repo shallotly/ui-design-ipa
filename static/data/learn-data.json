@@ -163,7 +163,7 @@
                 "id": "Columbia",
                 "vowel": "[ʌ]",
                 "audio": "/static/audio/ipa/uh-stressed.mp3",
-                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
+                "word-audio": "/static/audio/word/columbia.mp3"
             },
             {
                 "english": "Tes<u>la</u>",
@@ -177,14 +177,14 @@
                 "id": "battery",
                 "vowel": "[ə]",
                 "audio": "/static/audio/ipa/uh-unstressed.mp3",
-                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
+                "word-audio": "/static/audio/word/battery--_us_2.mp3"
             },
             {
                 "english": "<u>un</u>der",
                 "id": "under",
                 "vowel": "[ʌ]",
                 "audio": "/static/audio/ipa/uh-stressed.mp3",
-                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
+                "word-audio": "/static/audio/word/under_--1_us_1.mp3"
             }
         ]
     }
