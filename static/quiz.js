@@ -290,10 +290,12 @@ $(document).ready(function () {
       })
     }
 
-    $("#quiz-button-a, #quiz-button-b, #quiz-button-c, #quiz-button-e, #quiz-button-f, #quiz-button-g").droppable({
+    $("#quiz-button-a, #quiz-button-b, #quiz-button-c, #quiz-button-d, #quiz-button-e, #quiz-button-f").droppable({
       drop: function (event, ui) {
 
-            $(this).removeClass('btn-default').addClass('btn-danger')
+            $(this).removeClass('btn-default').addClass('btn-danger');
+            ui.draggable.detach().appendTo($(this));
+            ui.draggable.draggable( 'disable' )
 
 
         }
