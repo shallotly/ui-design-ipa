@@ -183,9 +183,9 @@ quiz_data = [
         "answer": "b",
         "choice_a": "[a]",
         "choice_b": "[æ]",
-        "audio_answer": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey"
+        "audio_answer": "/static/audio/ipa/ae.mp3",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/ae.mp3"
     },
 
     {
@@ -196,9 +196,9 @@ quiz_data = [
         "answer": "a",
         "choice_a": "[I]",
         "choice_b": "[i]",
-        "audio_answer": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey"
+        "audio_answer": "/static/audio/ipa/short-i.mp3",
+        "audio_a": "/static/audio/ipa/short-i.mp3",
+        "audio_b": "/static/audio/ipa/i.mp3"
     },
 
     {
@@ -210,10 +210,10 @@ quiz_data = [
         "choice_a": "[ə]",
         "choice_b": "[ʌ]",
         "choice_c": "[a]",
-        "audio_answer": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey",
-        "audio_c": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey"
+        "audio_answer": "/static/audio/ipa/uh-stressed.mp3",
+        "audio_a": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_b": "/static/audio/ipa/uh-stressed.mp3",
+        "audio_c": "/static/audio/ipa/a.mp3"
     },
 
     {
@@ -225,10 +225,10 @@ quiz_data = [
         "choice_a": "[I]",
         "choice_b": "[i]",
         "choice_c": "[ə]",
-        "audio_answer": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
-        "audio_c": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
+        "audio_answer": "/static/audio/ipa/i.mp3",
+        "audio_a": "/static/audio/ipa/short-i.mp3",
+        "audio_b": "/static/audio/ipa/i.mp3",
+        "audio_c": "/static/audio/ipa/uh-unstressed.mp3",
     },
 
     {
@@ -240,10 +240,10 @@ quiz_data = [
         "choice_a": "[a]",
         "choice_b": "[ʌ]",
         "choice_c": "[æ]",
-        "audio_answer": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey",
-        "audio_c": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey"
+        "audio_answer": "/static/audio/ipa/a.mp3",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/uh-stressed.mp3",
+        "audio_c": "/static/audio/ipa/ae.mp3"
     },
 
     {
@@ -255,10 +255,10 @@ quiz_data = [
         "choice_a": "[a]",
         "choice_b": "[ə]",
         "choice_c": "[ʌ]",
-        "audio_answer": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_c": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+        "audio_answer": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_c": "/static/audio/ipa/uh-stressed.mp3"
     },
 
     {
@@ -278,12 +278,12 @@ quiz_data = [
         "choice_d": "[i]",
         "choice_e": "[ə]",
         "choice_f": "[ʌ]",
-        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey",
-        "audio_c": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
-        "audio_d": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
-        "audio_e": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_f": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/ae.mp3",
+        "audio_c": "/static/audio/ipa/short-i.mp3",
+        "audio_d": "/static/audio/ipa/i.mp3",
+        "audio_e": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_f": "/static/audio/ipa/uh-stressed.mp3"
     },
 
     {
@@ -301,12 +301,12 @@ quiz_data = [
         "choice_d": "[i]",
         "choice_e": "[ə]",
         "choice_f": "[ʌ]",
-        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey",
-        "audio_c": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
-        "audio_d": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
-        "audio_e": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_f": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/ae.mp3",
+        "audio_c": "/static/audio/ipa/short-i.mp3",
+        "audio_d": "/static/audio/ipa/i.mp3",
+        "audio_e": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_f": "/static/audio/ipa/uh-stressed.mp3"
     }
 ]
 
