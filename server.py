@@ -430,9 +430,14 @@ def add_answer():
 
     json_data = request.get_json()
     id = json_data["id"]
+    sub_id = json_data["sub_id"]
     answer = json_data["answer"]
 
-    quiz_answer[int(id)-1]["answer"] = answer
+    if int(id) <= 7:
+        quiz_answer[(int(id)-1)+sub_id]["answer"] = answer
+    else:
+        quiz_answer[(int(id)-1)+sub_id+2]["answer"] = answer
+
 
     return jsonify(answers = quiz_answer)
 
