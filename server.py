@@ -203,43 +203,90 @@ quiz_data = [
         "answer": "b",
         "choice_a": "[ə]",
         "choice_b": "[ʌ]",
+        "choice_c": "[a]",
         "audio_answer": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey",
         "audio_a": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+        "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey",
+        "audio_c": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey"
     },
 
     {
         "id": "4",
-        "word": "hot",
-        "answer": "a",
-        "choice_a": "[a]",
-        "choice_b": "[æ]",
-        "audio_answer": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey"
-    },
-
-    {
-        "id": "5",
         "word": "eat",
         "answer": "b",
         "choice_a": "[I]",
         "choice_b": "[i]",
+        "choice_c": "[ə]",
         "audio_answer": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
         "audio_a": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey"
+        "audio_b": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
+        "audio_c": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
+    },
+
+    {
+        "id": "5",
+        "word": "hot",
+        "answer": "a",
+        "choice_a": "[a]",
+        "choice_b": "[ʌ]",
+        "choice_c": "[æ]",
+        "audio_answer": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
+        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
+        "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey",
+        "audio_c": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey"
     },
 
     {
         "id": "6",
         "word": "sample",
-        "answer": "a",
-        "choice_a": "[ə]",
-        "choice_b": "[ʌ]",
+        "answer": "b",
+        "choice_a": "[a]",
+        "choice_b": "[ə]",
+        "choice_c": "[ʌ]",
         "audio_answer": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_a": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
-        "audio_b": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
+        "audio_b": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
+        "audio_c": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
     },
+
+    {
+        "id": "7",
+        "word": "Africa",
+        "answer_one": "b",
+        "answer_two": "c",
+        "answer_three": "e",
+        "choice_a": "[a]",
+        "choice_b": "[æ]",
+        "choice_c": "[I]",
+        "choice_d": "[i]",
+        "choice_e": "[ə]",
+        "choice_f": "[ʌ]",
+        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
+        "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey",
+        "audio_c": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
+        "audio_d": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
+        "audio_e": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
+        "audio_f": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+    },
+
+    {
+        "id": "8",
+        "word": "affective",
+        "answer_one": "a",
+        "answer_two": "c",
+        "choice_a": "[a]",
+        "choice_b": "[æ]",
+        "choice_c": "[I]",
+        "choice_d": "[i]",
+        "choice_e": "[ə]",
+        "choice_f": "[ʌ]",
+        "audio_a": "https://drive.google.com/file/d/1sY52GApTBZTUGNG_pnTvVwzW2JBzhM2y/view?resourcekey",
+        "audio_b": "https://drive.google.com/file/d/14aaVBFQ-6K-258bfqXjIsmQe3QOnayy8/view?resourcekey",
+        "audio_c": "https://drive.google.com/file/d/1_CumTjXF2f8lwqLRVWxiRH56ZzIXlxjA/view?resourcekey",
+        "audio_d": "https://drive.google.com/file/d/1cJmzBs7sAIVGvJ2oLgTt1oj2Y10vuQt1/view?resourcekey",
+        "audio_e": "https://drive.google.com/file/d/1MztrE1omcAPkOB4X0sQCOOEYaH1FWCg1/view?resourcekey",
+        "audio_f": "https://drive.google.com/file/d/1pSjDfoP--V69-LE6J2vkLYKwdVePeupK/view?resourcekey"
+    }
 ]
 
 quiz_answer = [
@@ -264,19 +311,49 @@ quiz_answer = [
     {
         "id": "4",
         "answer": "none",
-        "correct": "a"
+        "correct": "b"
     },
 
     {
         "id": "5",
         "answer": "none",
-        "correct": "b"
+        "correct": "a"
     },
 
     {
         "id": "6",
         "answer": "none",
+        "correct": "b"
+    },
+
+    {
+        "id": "7.1",
+        "answer": "none",
+        "correct": "b"
+    },
+
+    {
+        "id": "7.2",
+        "answer": "none",
+        "correct": "c"
+    },
+
+    {
+        "id": "7.3",
+        "answer": "none",
+        "correct": "e"
+    },
+
+    {
+        "id": "8.1",
+        "answer": "none",
         "correct": "a"
+    },
+
+    {
+        "id": "8.2",
+        "answer": "none",
+        "correct": "c"
     }
 ]
 
