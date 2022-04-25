@@ -4,6 +4,7 @@
 <script type="text/javascript" src="{{ url_for('static', filename = 'quiz.js') }}"></script>
 <script>
     var id = {{ data["id"] | safe}}
+    var data = {{ data | safe}}
     var quiz_answer = {{ answer | safe}}
 </script>
 {% endblock %}
@@ -18,11 +19,13 @@
 
 <!-- QUIZ CONTENT -->
 
+{% if data["type"] == "1" %}
 <div class="mt-5 mb-3">
     <h3 class="center">{{ "What is the correct vowel?" | safe}}</h3>
     <h2 class="center client-info" id="client-info"></h2>
     <h1 class="center quiz-word">{{ data["word"] | safe}}</h1>
 
+    {% if data["questions_number"] == "2" %}
     <div class="row">
       <div class="col-md-2">
       </div>
@@ -37,7 +40,31 @@
       <div class="col-md-2">
       </div>
     </div>
+    {% endif %}
+
+    {% if data["questions_number"] == "3" %}
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-b">{{ data["choice_b"] | safe}}</button>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-c">{{ data["choice_c"] | safe}}</button>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    {% endif %}
 </div>
+{% endif %}
 
 <!-- BACK/NEXT BUTTONS -->
 

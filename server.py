@@ -177,6 +177,8 @@ data = [
 quiz_data = [
     {
         "id": "1",
+        "type": "1",
+        "questions_number": "2",
         "word": "hat",
         "answer": "b",
         "choice_a": "[a]",
@@ -188,6 +190,8 @@ quiz_data = [
 
     {
         "id": "2",
+        "type": "1",
+        "questions_number": "2",
         "word": "hit",
         "answer": "a",
         "choice_a": "[I]",
@@ -199,6 +203,8 @@ quiz_data = [
 
     {
         "id": "3",
+        "type": "1",
+        "questions_number": "3",
         "word": "puppy",
         "answer": "b",
         "choice_a": "[ə]",
@@ -212,6 +218,8 @@ quiz_data = [
 
     {
         "id": "4",
+        "type": "1",
+        "questions_number": "3",
         "word": "eat",
         "answer": "b",
         "choice_a": "[I]",
@@ -225,6 +233,8 @@ quiz_data = [
 
     {
         "id": "5",
+        "type": "1",
+        "questions_number": "3",
         "word": "hot",
         "answer": "a",
         "choice_a": "[a]",
@@ -238,6 +248,8 @@ quiz_data = [
 
     {
         "id": "6",
+        "type": "1",
+        "questions_number": "3",
         "word": "sample",
         "answer": "b",
         "choice_a": "[a]",
@@ -251,7 +263,12 @@ quiz_data = [
 
     {
         "id": "7",
+        "type": "2",
+        "questions_number": "3",
         "word": "Africa",
+        "question_one": "A",
+        "question_two": "i",
+        "question_three": "a",
         "answer_one": "b",
         "answer_two": "c",
         "answer_three": "e",
@@ -271,7 +288,11 @@ quiz_data = [
 
     {
         "id": "8",
+        "type": "2",
+        "questions_number": "2",
         "word": "affective",
+        "question_one": "a",
+        "question_two": "i",
         "answer_one": "a",
         "answer_two": "c",
         "choice_a": "[a]",
