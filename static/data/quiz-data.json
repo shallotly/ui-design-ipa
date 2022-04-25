@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "type": "1",
+        "questions_number": "2",
+        "word": "hat",
+        "answer": "b",
+        "choice_a": "[a]",
+        "choice_b": "[æ]",
+        "audio_answer": "/static/audio/ipa/ae.mp3",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/ae.mp3"
+    },
+
+    {
+        "id": "2",
+        "type": "1",
+        "questions_number": "2",
+        "word": "hit",
+        "answer": "a",
+        "choice_a": "[I]",
+        "choice_b": "[i]",
+        "audio_answer": "/static/audio/ipa/short-i.mp3",
+        "audio_a": "/static/audio/ipa/short-i.mp3",
+        "audio_b": "/static/audio/ipa/i.mp3"
+    },
+
+    {
+        "id": "3",
+        "type": "1",
+        "questions_number": "3",
+        "word": "puppy",
+        "answer": "b",
+        "choice_a": "[ə]",
+        "choice_b": "[ʌ]",
+        "choice_c": "[a]",
+        "audio_answer": "/static/audio/ipa/uh-stressed.mp3",
+        "audio_a": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_b": "/static/audio/ipa/uh-stressed.mp3",
+        "audio_c": "/static/audio/ipa/a.mp3"
+    },
+
+    {
+        "id": "4",
+        "type": "1",
+        "questions_number": "3",
+        "word": "eat",
+        "answer": "b",
+        "choice_a": "[I]",
+        "choice_b": "[i]",
+        "choice_c": "[ə]",
+        "audio_answer": "/static/audio/ipa/i.mp3",
+        "audio_a": "/static/audio/ipa/short-i.mp3",
+        "audio_b": "/static/audio/ipa/i.mp3",
+        "audio_c": "/static/audio/ipa/uh-unstressed.mp3"
+    },
+
+    {
+        "id": "5",
+        "type": "1",
+        "questions_number": "3",
+        "word": "hot",
+        "answer": "a",
+        "choice_a": "[a]",
+        "choice_b": "[ʌ]",
+        "choice_c": "[æ]",
+        "audio_answer": "/static/audio/ipa/a.mp3",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/uh-stressed.mp3",
+        "audio_c": "/static/audio/ipa/ae.mp3"
+    },
+
+    {
+        "id": "6",
+        "type": "1",
+        "questions_number": "3",
+        "word": "sample",
+        "answer": "b",
+        "choice_a": "[a]",
+        "choice_b": "[ə]",
+        "choice_c": "[ʌ]",
+        "audio_answer": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_c": "/static/audio/ipa/uh-stressed.mp3"
+    },
+
+    {
+        "id": "7",
+        "type": "2",
+        "questions_number": "3",
+        "word": "Africa",
+        "question_one": "A",
+        "question_two": "i",
+        "question_three": "a",
+        "answer_one": "b",
+        "answer_two": "c",
+        "answer_three": "e",
+        "choice_a": "[a]",
+        "choice_b": "[æ]",
+        "choice_c": "[I]",
+        "choice_d": "[i]",
+        "choice_e": "[ə]",
+        "choice_f": "[ʌ]",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/ae.mp3",
+        "audio_c": "/static/audio/ipa/short-i.mp3",
+        "audio_d": "/static/audio/ipa/i.mp3",
+        "audio_e": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_f": "/static/audio/ipa/uh-stressed.mp3"
+    },
+
+    {
+        "id": "8",
+        "type": "2",
+        "questions_number": "2",
+        "word": "affective",
+        "question_one": "a",
+        "question_two": "i",
+        "answer_one": "a",
+        "answer_two": "c",
+        "choice_a": "[a]",
+        "choice_b": "[æ]",
+        "choice_c": "[I]",
+        "choice_d": "[i]",
+        "choice_e": "[ə]",
+        "choice_f": "[ʌ]",
+        "audio_a": "/static/audio/ipa/a.mp3",
+        "audio_b": "/static/audio/ipa/ae.mp3",
+        "audio_c": "/static/audio/ipa/short-i.mp3",
+        "audio_d": "/static/audio/ipa/i.mp3",
+        "audio_e": "/static/audio/ipa/uh-unstressed.mp3",
+        "audio_f": "/static/audio/ipa/uh-stressed.mp3"
+    }
+]
