@@ -43,22 +43,26 @@
             {
                 "english": "sheet",
                 "vowel": "[i]",
-                "audio": "/static/audio/ipa/i.mp3"
+                "audio": "/static/audio/ipa/i.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "pit",
                 "vowel": "[I]",
-                "audio": "/static/audio/ipa/short-i.mp3"
+                "audio": "/static/audio/ipa/short-i.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "chip",
                 "vowel": "[I]",
-                "audio": "/static/audio/ipa/short-i.mp3"
+                "audio": "/static/audio/ipa/short-i.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "feet",
                 "vowel": "[i]",
-                "audio": "/static/audio/ipa/i.mp3"
+                "audio": "/static/audio/ipa/i.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             }
         ]
     },
@@ -94,22 +98,26 @@
             {
                 "english": "olive",
                 "vowel": "[a]",
-                "audio": "/static/audio/ipa/a.mp3"
+                "audio": "/static/audio/ipa/a.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "shackle",
                 "vowel": "[æ]",
-                "audio": "/static/audio/ipa/ae.mp3"
+                "audio": "/static/audio/ipa/ae.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "sock",
                 "vowel": "[a]",
-                "audio": "/static/audio/ipa/a.mp3"
+                "audio": "/static/audio/ipa/a.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "apple",
                 "vowel": "[æ]",
-                "audio": "/static/audio/ipa/ae.mp3"
+                "audio": "/static/audio/ipa/ae.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             }
         ]
     },
@@ -145,22 +153,26 @@
             {
                 "english": "Co<u>lum</u>bia",
                 "vowel": "[ʌ]",
-                "audio": "/static/audio/ipa/uh-stressed.mp3"
+                "audio": "/static/audio/ipa/uh-stressed.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "Tes<u>la</u>",
                 "vowel": "[ə]",
-                "audio": "/static/audio/ipa/uh-unstressed.mp3"
+                "audio": "/static/audio/ipa/uh-unstressed.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "bat<u>ter</u>y",
                 "vowel": "[ə]",
-                "audio": "/static/audio/ipa/uh-unstressed.mp3"
+                "audio": "/static/audio/ipa/uh-unstressed.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "<u>un</u>der",
                 "vowel": "[ʌ]",
-                "audio": "/static/audio/ipa/uh-stressed.mp3"
+                "audio": "/static/audio/ipa/uh-stressed.mp3",
+                "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             }
         ]
     }

@@ -56,7 +56,16 @@
 	<table border="1">
 	    {% for row in data["practice"] %}
 	    <tr>
-		<td class="h3 px-4 py-3">{{row["english"] | safe}}</td>
+		<td class="h3 px-4 py-3">
+            <div>
+                <audio id="audio-{{row['english']}}" src='{{row["word-audio"]}}'>
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+                <span class="play" data-id="audio-{{row['english']}}"></span>
+                {{row["english"] | safe}}
+            </div>
+        </td>
 		<td class="text-center h3 px-4 py-3">
             <btn class="practice-spoiler btn btn-secondary" id="{{ns.audioID}}">Reveal answer</btn>
             <div class="practice-answer" id="practice-answer-{{ns.audioID}}">
