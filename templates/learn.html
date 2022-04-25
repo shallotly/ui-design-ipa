@@ -58,11 +58,11 @@
 	    <tr>
 		<td class="h3 px-4 py-3">
             <div>
-                <audio id="audio-{{row['english']}}" src='{{row["word-audio"]}}'>
+                <audio id="audio-{{row['id']}}" src='{{row["word-audio"]}}'>
                     Your browser does not support the
                     <code>audio</code> element.
                 </audio>
-                <span class="play" data-id="audio-{{row['english']}}"></span>
+                <span class="play" data-id="audio-{{row['id']}}"></span>
                 {{row["english"] | safe}}
             </div>
         </td>

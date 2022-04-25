@@ -42,24 +42,28 @@
         "practice": [
             {
                 "english": "sheet",
+                "id": "sheet",
                 "vowel": "[i]",
                 "audio": "/static/audio/ipa/i.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "pit",
+                "id": "pit",
                 "vowel": "[I]",
                 "audio": "/static/audio/ipa/short-i.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "chip",
+                "id": "chip",
                 "vowel": "[I]",
                 "audio": "/static/audio/ipa/short-i.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "feet",
+                "id": "feet",
                 "vowel": "[i]",
                 "audio": "/static/audio/ipa/i.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
@@ -97,24 +101,28 @@
         "practice": [
             {
                 "english": "olive",
+                "id": "olive",
                 "vowel": "[a]",
                 "audio": "/static/audio/ipa/a.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "shackle",
+                "id": "shackle",
                 "vowel": "[æ]",
                 "audio": "/static/audio/ipa/ae.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "sock",
+                "id": "sock",
                 "vowel": "[a]",
                 "audio": "/static/audio/ipa/a.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "apple",
+                "id": "apple",
                 "vowel": "[æ]",
                 "audio": "/static/audio/ipa/ae.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
@@ -152,24 +160,28 @@
         "practice": [
             {
                 "english": "Co<u>lum</u>bia",
+                "id": "Columbia",
                 "vowel": "[ʌ]",
                 "audio": "/static/audio/ipa/uh-stressed.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "Tes<u>la</u>",
+                "id": "Tesla",
                 "vowel": "[ə]",
                 "audio": "/static/audio/ipa/uh-unstressed.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "bat<u>ter</u>y",
+                "id": "battery",
                 "vowel": "[ə]",
                 "audio": "/static/audio/ipa/uh-unstressed.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
             },
             {
                 "english": "<u>un</u>der",
+                "id": "under",
                 "vowel": "[ʌ]",
                 "audio": "/static/audio/ipa/uh-stressed.mp3",
                 "word-audio": "/static/audio/word/sheet--_us_1.mp3"
