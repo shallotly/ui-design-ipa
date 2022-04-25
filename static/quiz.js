@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+// type 1 question
   if (data["type"] == '1'){
 
     var correct = quiz_answer["correct"]
@@ -265,8 +266,40 @@ $(document).ready(function () {
     }
   }
 
+// type 2 question
   if (data["type"] == '2'){
     console.log(quiz_answer)
+
+    // question number is 2
+    if(data["questions_number"] == '2'){
+
+      $("#question_one, #question_two").draggable({
+          revert: true,
+          stack: "#question_one, #question_two"
+
+      })
+    }
+
+    // question number is 3
+    if(data["questions_number"] == '3'){
+
+      $("#question_one, #question_two, #question_three").draggable({
+          revert: true,
+          stack: "#question_one, #question_two, #question_three"
+
+      })
+    }
+
+    $("#quiz-button-a, #quiz-button-b, #quiz-button-c, #quiz-button-e, #quiz-button-f, #quiz-button-g").droppable({
+      drop: function (event, ui) {
+
+            $(this).removeClass('btn-default').addClass('btn-danger')
+
+
+        }
+
+    })
+
 
   }
 
