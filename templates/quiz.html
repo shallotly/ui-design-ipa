@@ -66,6 +66,113 @@
 </div>
 {% endif %}
 
+<!-- drag and drop question -->
+{% if data["type"] == "2" %}
+<div class="mt-5 mb-3">
+    <h3 class="center">{{ "Drag and drop the letter to its corresponding IPA vowel." | safe}}</h3>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+        <h1 class="center quiz-word_2">{{ data["word"] | safe}}</h1>
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+
+      {% if data["questions_number"] == "3" %}
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary btn-lg quiz-btn" id="question_one">{{ data["question_one"] | safe}}</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary btn-lg quiz-btn" id="question_two">{{ data["question_two"] | safe}}</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary btn-lg quiz-btn" id="question_three">{{ data["question_three"] | safe}}</button>
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+      {% endif %}
+
+      {% if data["questions_number"] == "2" %}
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary btn-lg quiz-btn" id="question_one">{{ data["question_one"] | safe}}</button>
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary btn-lg quiz-btn" id="question_two">{{ data["question_two"] | safe}}</button>
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="col-md-6 quiz_2_padding">
+      <div class="row quiz_2_padding">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-default btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-default btn-lg quiz-btn" id="quiz-button-b">{{ data["choice_b"] | safe}}</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+
+      <div class="row quiz_2_padding">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-default btn-lg quiz-btn" id="quiz-button-c">{{ data["choice_c"] | safe}}</button>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-default btn-lg quiz-btn" id="quiz-button-d">{{ data["choice_d"] | safe}}</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+
+      <div class="row quiz_2_padding">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-default btn-lg quiz-btn" id="quiz-button-e">{{ data["choice_e"] | safe}}</button>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-default btn-lg quiz-btn" id="quiz-button-f">{{ data["choice_f"] | safe}}</button>
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
 <!-- BACK/NEXT BUTTONS -->
 
 <nav class="navbar fixed-bottom bg-light d-flex justify-content-between">

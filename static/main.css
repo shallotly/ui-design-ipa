@@ -45,6 +45,18 @@
   font-size: 150px;
 }
 
+.quiz-word_2{
+  display: block;
+  padding-top: 150px;
+  padding-bottom: 40px;
+  font-size: 100px;
+}
+
+.quiz_2_padding{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .client-info{
   display: block;
   height: 120px;
@@ -64,4 +76,25 @@
 
 .red{
   color: red;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-default:active {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
 }
