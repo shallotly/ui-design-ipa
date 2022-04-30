@@ -12,15 +12,16 @@
         "explanation": [
             {
                 "text":"[i] is the <b>long \"i\"</b> sound in English. It is the vowel sound in <b>\"speed.\"</b>",
-                "audio": "/static/audio/ipa/i.mp3"
+                "audio": "/static/audio/ipa/i.mp3",
+                "vowel": "i"
             },
             {
                 "text":"[I] is the <b>short \"i\"</b> sound in English. It is the vowel sound in <b>\"spit.\"</b>",
-                "audio": "/static/audio/ipa/short-i.mp3"
+                "audio": "/static/audio/ipa/short-i.mp3",
+                "vowel": "I"
             }
         ],
-        "actionText": "Do you hear a difference?",
-        "image": "/static/img/ipa-4.png"
+        "actionText": "Do you hear a difference?"
     },
     {
         "text": "Pair 1: [i] and [I]",
@@ -71,15 +72,16 @@
         "explanation": [
             {
                 "text":"[æ] is the <b>short \"a\"</b> sound in English. It is the vowel sound in <b>\"cat.\"</b>",
-                "audio": "/static/audio/ipa/ae.mp3"
+                "audio": "/static/audio/ipa/ae.mp3",
+                "vowel": "æ"
             },
             {
                 "text":"[a] is the <b>\"ah\"</b> sound in English. It is the vowel sound in <b>\"father.\"</b>",
-                "audio": "/static/audio/ipa/a.mp3"
+                "audio": "/static/audio/ipa/a.mp3",
+                "vowel": "a"
             }
         ],
-        "actionText": "Do you hear a difference?",
-        "image": "/static/img/ipa-5.png"
+        "actionText": "Do you hear a difference?"
     },
     {
         "text": "Pair 2: [æ] and [a]",
@@ -130,15 +132,16 @@
         "explanation": [
             {
                 "text":"[ʌ] is the \"uh\" sound in a <b>stressed syllable</b>. It is the 1st vowel sound in <b>\"<u>jus</u>tice.\"</b>",
-                "audio": "/static/audio/ipa/uh-stressed.mp3"
+                "audio": "/static/audio/ipa/uh-stressed.mp3",
+                "vowel": "ʌ"
             },
             {
                 "text":"[ə] is the \"uh\" sound in an <b>unstressed syllable</b>. It is the 2nd and 3rd vowel sounds in <b>\"Ca<u>nada</u>.\"</b>",
-                "audio": "/static/audio/ipa/uh-unstressed.mp3"
+                "audio": "/static/audio/ipa/uh-unstressed.mp3",
+                "vowel": "ə"
             }
         ],
-        "actionText": "Do you hear a difference?",
-        "image": "/static/img/ipa-6.png"
+        "actionText": "Do you hear a difference?"
     },
     {
         "text": "Pair 3: [ʌ] and [ə]",

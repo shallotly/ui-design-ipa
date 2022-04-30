@@ -20,6 +20,8 @@
     display: inline-block;
     height: 1.5rem;
     width: 1.5rem;
+    vertical-align: middle;
+    margin: 0px 3px -2px 3px;
 }
 
 .bordered {
@@ -108,4 +110,15 @@
   display: inline-block;
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.vowel-card{
+  border-style: solid;
+  background-color: #fafafa;
+  border-color: #67abf4;
+  border-radius: 0.5rem;
+  height: 300px;
+  line-height: 300px;
+  font-size: 48px;
+  margin: 20px 10px 10px 10px;
 }
