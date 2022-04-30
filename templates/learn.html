@@ -26,8 +26,7 @@
     <div class="row d-flex justify-content-center">
     {% for expl in data["explanation"] %}
         {% if expl["vowel"] is defined %}
-        <div class="d-flex justify-content-center">
-            <div class="col-md-6 text-center">
+            <div class="vowel-display col-md-4 text-center">
                 <div class="vowel-card">{{expl["vowel"] | safe}}</div>
                 <div><audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
                     Your browser does not support the
@@ -39,7 +38,6 @@
                 </div>
                 {% set ns.audioID = ns.audioID + 1 %}</div>
             </div>
-        </div>
         {% else %}
         <div>
             <audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
