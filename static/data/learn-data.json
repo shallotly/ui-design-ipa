@@ -1,9 +1,5 @@
 [
     {
-        "text": "<b>This is the IPA vowel chart.</b> (IPA stands for International Phonetic Alphabet.) <br/> It shows all of the vowel sounds a human mouth can make.",
-        "image": "/static/img/ipa-1.png"
-    },
-    {
         "text": "<b>These are the vowel sounds in American English.</b> (Don't worry about position.)",
         "image": "/static/img/ipa-2.png"
     },
