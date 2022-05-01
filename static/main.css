@@ -1,3 +1,22 @@
+:root {
+    --base-color: rgb(239,231,218);
+    --accent-color: #67abf4;
+    --light-gray: #f8f9fa; /* equiv to Bootstrap's light gray color */
+    --dark-gray: #6c757d;  /* equiv to Bootstrap's secondary color */
+}
+
+html body {
+    background-color: var(--base-color);
+}
+
+.progress {
+    background-color: var(--dark-gray);
+}
+
+table {
+    background-color: var(--light-gray);
+}
+
 .page-container {
     position: absolute;
     top: 48px;
@@ -8,7 +27,7 @@
 
 .hero-image {
     max-height: 320px;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .play {
@@ -114,8 +133,8 @@
 
 .vowel-card{
   border-style: solid;
-  background-color: #fafafa;
-  border-color: #67abf4;
+  background-color: var(--light-gray);
+  border-color: var(--accent-color);
   border-radius: 0.5rem;
   height: 300px;
   line-height: 300px;
