@@ -116,10 +116,10 @@
   border-style: solid;
   background-color: #fafafa;
   border-color: #67abf4;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   height: 300px;
   line-height: 300px;
-  font-size: 48px;
+  font-size: 56px;
   width: 80%;
   margin: 20px auto;
 }
