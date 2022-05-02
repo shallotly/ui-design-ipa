@@ -1,3 +1,42 @@
+:root {
+    --base-color: rgb(239,231,218);
+    --accent-color: #67abf4;
+    --light-gray: #f8f9fa; /* equiv to Bootstrap's light gray color */
+    --dark-gray: #6c757d;  /* equiv to Bootstrap's secondary color */
+}
+
+html body {
+    background-color: var(--base-color);
+}
+
+.progress {
+    background-color: var(--dark-gray);
+}
+
+table {
+    background-color: var(--light-gray);
+}
+
+th {
+    font-size: 150%;
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+td {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.expl-table th, .expl-table td {
+    text-align: center;
+}
+
 .page-container {
     position: absolute;
     top: 48px;
@@ -8,7 +47,7 @@
 
 .hero-image {
     max-height: 320px;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .play {
@@ -49,7 +88,7 @@
 
 .quiz-word_2{
   display: block;
-  padding-top: 150px;
+  padding-top: 40px;
   padding-bottom: 40px;
   font-size: 100px;
 }
@@ -106,17 +145,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-
+  visibility: hidden;
   display: inline-block;
   height: 1.5rem;
   width: 1.5rem;
+  border:#fff
+}
+
+.quiz_qplayer {
+  background-image: url("/static/audio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  border:#fff
 }
 
 .vowel-card{
   border-style: solid;
-  background-color: #fafafa;
-  border-color: #67abf4;
-  border-radius: 1.5rem;
+  background-color: var(--light-gray);
+  border-color: var(--accent-color);
+  border-radius: 0.5rem;
   height: 300px;
   line-height: 300px;
   font-size: 56px;
@@ -126,4 +177,8 @@
 
 .vowel-display{
   margin: 0px 50px;
+}
+
+.underline {
+  text-decoration: underline;
 }

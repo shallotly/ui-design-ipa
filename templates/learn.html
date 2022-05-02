@@ -24,34 +24,54 @@
     <!-- explanation text for vowel pairs -->
     {% if data["explanation"] is defined %}
     <div class="row d-flex justify-content-center">
-    {% for expl in data["explanation"] %}
-        {% if expl["vowel"] is defined %}
-            <div class="vowel-display col-md-4 text-center">
-                <div class="vowel-card">{{expl["vowel"] | safe}}</div>
-                <div><audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
-                    Your browser does not support the
-                    <code>audio</code> element.
-                </audio>
-                <div>
-                    <span class="play" data-id="audio-{{ns.audioID}}"></span>
-                    {{expl["text"] | safe}}
-                </div>
-                {% set ns.audioID = ns.audioID + 1 %}</div>
-            </div>
-        {% else %}
-        <div>
-            <audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
+	{% if data["explanation"][0]["vowel"] is defined %}
+	{% for expl in data["explanation"] %}
+        <div class="vowel-display col-md-4 text-center">
+            <div class="vowel-card">{{expl["vowel"] | safe}}</div>
+            <div><audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
                 Your browser does not support the
                 <code>audio</code> element.
             </audio>
-            <h4 class="ml-5">
+            <div>
                 <span class="play" data-id="audio-{{ns.audioID}}"></span>
                 {{expl["text"] | safe}}
-            </h4>
-            {% set ns.audioID = ns.audioID + 1 %}
+            </div>
+            {% set ns.audioID = ns.audioID + 1 %}</div>
+        </div>
+	{% endfor %}
+        {% else %}
+        <div>
+	    <table border="1" class="expl-table">
+		<tr>
+		    <th>Audio</th>
+		    <th>Symbol</th>
+		    <th>Description</th>
+		    <th>Example</th>
+		</tr>
+		{% for expl in data["explanation"] %}
+		<tr>
+		    <td>
+			<audio id="audio-{{ns.audioID}}" src='{{expl["audio"]}}'>
+			    Your browser does not support the
+			    <code>audio</code> element.
+			</audio>
+			<span class="play" data-id="audio-{{ns.audioID}}"></span>
+			{% set ns.audioID = ns.audioID + 1 %}
+		    </td>
+		    <td>
+			{{expl["symbol"] | safe}}
+		    </td>
+		    <td>
+			{{expl["description"] | safe}}
+		    </td>
+		    <td>
+			{{expl["example"] | safe}}
+		    </td>
+		</tr>
+		{% endfor %}
+	    </table>
         </div>
         {% endif %}
-        {% endfor %}
     </div>
     {% endif %}
 
@@ -75,29 +95,29 @@
 	    {% for row in data["practice"] %}
 	    <tr>
 		<td class="h3 px-4 py-3">
-            <div>
-                <audio id="audio-{{row['id']}}" src='{{row["word-audio"]}}'>
-                    Your browser does not support the
-                    <code>audio</code> element.
-                </audio>
-                <span class="play" data-id="audio-{{row['id']}}"></span>
-                {{row["english"] | safe}}
-            </div>
-        </td>
+		    <div>
+			<audio id="audio-{{row['id']}}" src='{{row["word-audio"]}}'>
+			    Your browser does not support the
+			    <code>audio</code> element.
+			</audio>
+			<span class="play" data-id="audio-{{row['id']}}"></span>
+			{{row["english"] | safe}}
+		    </div>
+		</td>
 		<td class="text-center h3 px-4 py-3">
-            <btn class="practice-spoiler btn btn-secondary" id="{{ns.audioID}}">Reveal answer</btn>
-            <div class="practice-answer" id="practice-answer-{{ns.audioID}}">
-                {{row["vowel"] | safe}}
-                <!--
-                <audio id="audio-{{ns.audioID}}" src='{{row["audio"]}}'>
-                    Your browser does not support the
-                    <code>audio</code> element.
-                </audio>
-                <span class="play" data-id="audio-{{ns.audioID}}"></span>
-                {% set ns.audioID = ns.audioID + 1 %}
-                -->
-            </div>
-        </td>
+		    <btn class="practice-spoiler btn btn-secondary" id="{{ns.audioID}}">Reveal answer</btn>
+		    <div class="practice-answer" id="practice-answer-{{ns.audioID}}">
+			{{row["vowel"] | safe}}
+			<!--
+			     <audio id="audio-{{ns.audioID}}" src='{{row["audio"]}}'>
+			     Your browser does not support the
+			     <code>audio</code> element.
+			     </audio>
+			     <span class="play" data-id="audio-{{ns.audioID}}"></span>
+			     {% set ns.audioID = ns.audioID + 1 %}
+			-->
+		    </div>
+		</td>
 	    </tr>
 	    {% endfor %}
 	</table>
