@@ -145,10 +145,22 @@ td {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-
+  visibility: hidden;
   display: inline-block;
   height: 1.5rem;
   width: 1.5rem;
+  border:#fff
+}
+
+.quiz_qplayer {
+  background-image: url("/static/audio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  border:#fff
 }
 
 .vowel-card{

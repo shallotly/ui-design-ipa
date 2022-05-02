@@ -10,6 +10,8 @@ $(document).ready(function () {
       $("#quiz-button-a").click(function() {
         var select = "a"
         console.log(select)
+        $("#choice2a").css("visibility", "visible")
+        $("#choice2b").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -56,6 +58,8 @@ $(document).ready(function () {
       $("#quiz-button-b").click(function() {
         var select = "b"
         console.log(select)
+        $("#choice2a").css("visibility", "visible")
+        $("#choice2b").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -104,6 +108,9 @@ $(document).ready(function () {
       $("#quiz-button-a").click(function() {
         var select = "a"
         console.log(select)
+        $("#choice3a").css("visibility", "visible")
+        $("#choice3b").css("visibility", "visible")
+        $("#choice3c").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -160,6 +167,9 @@ $(document).ready(function () {
       $("#quiz-button-b").click(function() {
         var select = "b"
         console.log(select)
+        $("#choice3a").css("visibility", "visible")
+        $("#choice3b").css("visibility", "visible")
+        $("#choice3c").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -215,6 +225,9 @@ $(document).ready(function () {
       $("#quiz-button-c").click(function() {
         var select = "c"
         console.log(select)
+        $("#choice3a").css("visibility", "visible")
+        $("#choice3b").css("visibility", "visible")
+        $("#choice3c").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
