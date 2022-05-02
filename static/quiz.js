@@ -305,11 +305,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -342,11 +354,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -385,11 +409,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -421,11 +457,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -464,11 +512,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -500,11 +560,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -544,11 +616,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -580,11 +664,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -623,11 +719,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -659,11 +767,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -702,11 +822,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -738,11 +870,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -792,11 +936,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -829,11 +985,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -865,11 +1033,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -908,11 +1088,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -944,11 +1136,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -980,11 +1184,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1023,11 +1239,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1059,11 +1287,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1095,11 +1335,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1139,11 +1391,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1175,11 +1439,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1211,11 +1487,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1254,11 +1542,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1290,11 +1590,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1326,11 +1638,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1369,11 +1693,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1405,11 +1741,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
@@ -1441,11 +1789,23 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Nice!");
+                  $("#client-info").append(clientInfo).addClass('green');
                 }
                 else{
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+
+                  $("#client-info").empty();
+                  $("#client-info").removeClass("green, red");
+                  var clientInfo = $("<div></div>");
+                  clientInfo.html("Oops!");
+                  $("#client-info").append(clientInfo).addClass('red');
                 }
 
                 var data_to_save = {
