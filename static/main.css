@@ -17,6 +17,26 @@ table {
     background-color: var(--light-gray);
 }
 
+th {
+    font-size: 150%;
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+td {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.expl-table th, .expl-table td {
+    text-align: center;
+}
+
 .page-container {
     position: absolute;
     top: 48px;
