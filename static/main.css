@@ -5,7 +5,7 @@
     --dark-gray: #6c757d;  /* equiv to Bootstrap's secondary color */
 }
 
-html body {
+.with-base-color {
     background-color: var(--base-color);
 }
 
