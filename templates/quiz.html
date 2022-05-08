@@ -215,9 +215,9 @@
 <nav class="navbar fixed-bottom bg-light d-flex justify-content-between">
     <span></span>
     {% if step|int == total %}
-    <a class="btn btn-primary btn-lg" href="/quiz-end">Next</a>
+    <button class="btn btn-primary btn-lg" id="next-button" onclick="location.href='/quiz-end'">Next</button>
     {% else %}
-    <a class="btn btn-primary btn-lg" href="/quiz/{{step + 1}}">Next</a>
+    <button class="btn btn-primary btn-lg" id="next-button" onclick="location.href='/quiz/{{step + 1}}'">Next</button>
     {% endif %}
 </nav>
 

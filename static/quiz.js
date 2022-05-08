@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  $("#next-button").prop("disabled", true);
+
 // type 1 question
   if (data["type"] == '1'){
 
@@ -16,6 +18,7 @@ $(document).ready(function () {
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
           $("#quiz-button-b").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Nice!");
@@ -23,7 +26,8 @@ $(document).ready(function () {
         }
         else {
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-          $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
+          $("#quiz-button-b").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Oops!");
@@ -64,6 +68,7 @@ $(document).ready(function () {
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
           $("#quiz-button-a").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Nice!");
@@ -71,7 +76,8 @@ $(document).ready(function () {
         }
         else {
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-          $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
+          $("#quiz-button-a").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Oops!");
@@ -116,23 +122,17 @@ $(document).ready(function () {
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
           $("#quiz-button-b").prop("disabled", true);
           $("#quiz-button-c").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Nice!");
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
-          if (correct == "b"){
-            $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-            $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
-            $("#quiz-button-c").prop("disabled", true);
-          }
-
-          if (correct == "c"){
-            $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-            $("#quiz-button-c").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
-            $("#quiz-button-b").prop("disabled", true);
-          }
+          $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
+          $("#quiz-button-b").prop("disabled", true);
+          $("#quiz-button-c").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Oops!");
@@ -175,23 +175,18 @@ $(document).ready(function () {
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
           $("#quiz-button-a").prop("disabled", true);
           $("#quiz-button-c").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Nice!");
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
-          if (correct == "a"){
-            $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-            $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
-            $("#quiz-button-c").prop("disabled", true);
-          }
+          $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
+          $("#quiz-button-a").prop("disabled", true);
+          $("#quiz-button-c").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
-          if (correct == "c"){
-            $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-            $("#quiz-button-c").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
-            $("#quiz-button-a").prop("disabled", true);
-          }
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Oops!");
@@ -233,23 +228,18 @@ $(document).ready(function () {
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
           $("#quiz-button-a").prop("disabled", true);
           $("#quiz-button-b").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Nice!");
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
-          if (correct == "a"){
-            $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-            $("#quiz-button-a").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
-            $("#quiz-button-b").prop("disabled", true);
-          }
+          $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
+          $("#quiz-button-a").prop("disabled", true);
+          $("#quiz-button-b").prop("disabled", true);
+          $("#next-button").prop("disabled", false);
 
-          if (correct == "b"){
-            $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
-            $("#quiz-button-b").removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
-            $("#quiz-button-a").prop("disabled", true);
-          }
 
           var clientInfo = $("<div></div>");
           clientInfo.html("Oops!");
