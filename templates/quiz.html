@@ -24,14 +24,13 @@
     <h3 class="center">{{ "What is the correct vowel?" | safe}}</h3>
     <h2 class="center client-info" id="client-info"></h2>
     <h1 class="center quiz-word">{{ data["word"] | safe}}</h1>
+    <audio id="player_q" src={{data["audio_word"] | safe}}></audio>
+    <button class="quiz_qplayer play_button" onclick="document.getElementById('player_q').play()"></button>
+
 
     {% if data["questions_number"] == "2" %}
     <div class="row">
       <div class="col-md-2">
-        <audio id="player_q" src={{data["audio_word"] | safe}}></audio>
-        <div>
-          <button class="quiz_qplayer" onclick="document.getElementById('player_q').play()"></button>
-        </div>
       </div>
       <div class="col-md-3">
         <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>
@@ -57,10 +56,6 @@
     {% if data["questions_number"] == "3" %}
     <div class="row">
       <div class="col-md-2">
-        <audio id="player_q" src={{data["audio_word"] | safe}}></audio>
-        <div>
-          <button class="quiz_qplayer" onclick="document.getElementById('player_q').play()"></button>
-        </div>
       </div>
       <div class="col-md-2">
         <button type="button" class="btn btn-primary btn-lg quiz-btn" id="quiz-button-a">{{ data["choice_a"] | safe}}</button>

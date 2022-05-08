@@ -63,6 +63,11 @@ td {
     margin: 0px 3px -2px 3px;
 }
 
+.play_button {
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
+
 .bordered {
   border: 2px solid black;
   padding: 2px;
@@ -70,6 +75,8 @@ td {
 
 .center {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .practice-answer {
@@ -82,7 +89,7 @@ td {
 .quiz-word{
   display: block;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   font-size: 150px;
 }
 
