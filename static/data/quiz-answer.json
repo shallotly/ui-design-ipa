@@ -2,66 +2,77 @@
     {
         "id": "1",
         "answer": "none",
-        "correct": "b"
+        "correct": "b",
+        "correct_vowel": "[æ]"
     },
 
     {
         "id": "2",
         "answer": "none",
-        "correct": "a"
+        "correct": "a",
+        "correct_vowel": "[I]"
     },
 
     {
         "id": "3",
         "answer": "none",
-        "correct": "b"
+        "correct": "b",
+        "correct_vowel": "[ʌ]"
     },
 
     {
         "id": "4",
         "answer": "none",
-        "correct": "b"
+        "correct": "b",
+        "correct_vowel": "[i]"
     },
 
     {
         "id": "5",
         "answer": "none",
-        "correct": "a"
+        "correct": "a",
+        "correct_vowel": "[a]"
     },
 
     {
         "id": "6",
         "answer": "none",
-        "correct": "b"
+        "correct": "b",
+        "correct_vowel": "[ə]"
     },
 
     {
         "id": "7.1",
         "answer": "none",
-        "correct": "b"
+        "correct": "b",
+        "correct_vowel": "[æ]"
     },
 
     {
         "id": "7.2",
         "answer": "none",
-        "correct": "c"
+        "correct": "c",
+        "correct_vowel": "[I]"
     },
 
     {
         "id": "7.3",
         "answer": "none",
-        "correct": "e"
+        "correct": "e",
+        "correct_vowel": "[ə]"
     },
 
     {
         "id": "8.1",
         "answer": "none",
-        "correct": "e"
+        "correct": "e",
+        "correct_vowel": "[ə]"
     },
 
     {
         "id": "8.2",
         "answer": "none",
-        "correct": "c"
+        "correct": "c",
+        "correct_vowel": "[I]"
     }
 ]

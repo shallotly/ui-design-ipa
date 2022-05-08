@@ -30,7 +30,7 @@ $(document).ready(function () {
           $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops!");
+          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
           $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops!");
+          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -135,7 +135,7 @@ $(document).ready(function () {
           $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops!");
+          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -189,7 +189,7 @@ $(document).ready(function () {
 
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops!");
+          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -242,7 +242,7 @@ $(document).ready(function () {
 
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops!");
+          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -295,6 +295,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -306,11 +307,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -344,6 +346,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -355,11 +358,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -399,6 +403,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -410,11 +415,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -447,6 +453,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -458,11 +465,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -502,6 +510,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -513,11 +522,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -550,6 +560,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -561,11 +572,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -606,6 +618,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -617,11 +630,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -654,6 +668,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -665,11 +680,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -709,6 +725,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -720,11 +737,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -757,6 +775,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -768,11 +787,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -812,6 +832,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -823,11 +844,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -860,6 +882,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -871,11 +894,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -926,6 +950,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -937,11 +962,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -975,6 +1001,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -986,11 +1013,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1023,6 +1051,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1034,11 +1063,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1078,6 +1108,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1089,11 +1120,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1126,6 +1158,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1137,11 +1170,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1174,6 +1208,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1185,11 +1220,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1229,6 +1265,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1240,11 +1277,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1277,6 +1315,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1288,11 +1327,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1325,6 +1365,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1336,11 +1377,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1381,6 +1423,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1392,11 +1435,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1429,6 +1473,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1440,11 +1485,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1477,6 +1523,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1488,11 +1535,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1532,6 +1580,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1543,11 +1592,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1580,6 +1630,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1591,11 +1642,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1628,6 +1680,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1639,11 +1692,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1683,6 +1737,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1694,11 +1749,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1731,6 +1787,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1742,11 +1799,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1779,6 +1837,7 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-success');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
@@ -1790,11 +1849,12 @@ $(document).ready(function () {
                   $(this).removeClass('btn-default').addClass('btn-danger');
                   ui.draggable.detach().appendTo($(this));
                   ui.draggable.draggable( 'disable' )
+                  $("#next-button").prop("disabled", false);
 
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops!");
+                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
