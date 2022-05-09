@@ -12,8 +12,6 @@ $(document).ready(function () {
       $("#quiz-button-a").click(function() {
         var select = "a"
         console.log(select)
-        $("#choice2a").css("visibility", "visible")
-        $("#choice2b").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -25,6 +23,8 @@ $(document).ready(function () {
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
+          $("#choice2a").css("visibility", "visible")
+          $("#choice2b").css("visibility", "visible")
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
           $("#quiz-button-b").prop("disabled", true);
           $("#next-button").prop("disabled", false);
@@ -62,8 +62,6 @@ $(document).ready(function () {
       $("#quiz-button-b").click(function() {
         var select = "b"
         console.log(select)
-        $("#choice2a").css("visibility", "visible")
-        $("#choice2b").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -75,6 +73,8 @@ $(document).ready(function () {
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
+          $("#choice2a").css("visibility", "visible")
+          $("#choice2b").css("visibility", "visible")
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
           $("#quiz-button-a").prop("disabled", true);
           $("#next-button").prop("disabled", false);
@@ -114,9 +114,6 @@ $(document).ready(function () {
       $("#quiz-button-a").click(function() {
         var select = "a"
         console.log(select)
-        $("#choice3a").css("visibility", "visible")
-        $("#choice3b").css("visibility", "visible")
-        $("#choice3c").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -129,6 +126,9 @@ $(document).ready(function () {
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
+          $("#choice3a").css("visibility", "visible")
+          $("#choice3b").css("visibility", "visible")
+          $("#choice3c").css("visibility", "visible")
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
           $("#quiz-button-b").prop("disabled", true);
           $("#quiz-button-c").prop("disabled", true);
@@ -167,9 +167,6 @@ $(document).ready(function () {
       $("#quiz-button-b").click(function() {
         var select = "b"
         console.log(select)
-        $("#choice3a").css("visibility", "visible")
-        $("#choice3b").css("visibility", "visible")
-        $("#choice3c").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -182,6 +179,9 @@ $(document).ready(function () {
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
+          $("#choice3a").css("visibility", "visible")
+          $("#choice3b").css("visibility", "visible")
+          $("#choice3c").css("visibility", "visible")
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
           $("#quiz-button-a").prop("disabled", true);
           $("#quiz-button-c").prop("disabled", true);
@@ -220,9 +220,6 @@ $(document).ready(function () {
       $("#quiz-button-c").click(function() {
         var select = "c"
         console.log(select)
-        $("#choice3a").css("visibility", "visible")
-        $("#choice3b").css("visibility", "visible")
-        $("#choice3c").css("visibility", "visible")
 
         if (select == correct){
           $(this).removeClass('btn-primary').addClass('btn-success').prop("disabled", true);
@@ -235,6 +232,9 @@ $(document).ready(function () {
           $("#client-info").append(clientInfo).addClass('green');
         }
         else {
+          $("#choice3a").css("visibility", "visible")
+          $("#choice3b").css("visibility", "visible")
+          $("#choice3c").css("visibility", "visible")
           $(this).removeClass('btn-primary').addClass('btn-danger').prop("disabled", true);
           $("#quiz-button-a").prop("disabled", true);
           $("#quiz-button-b").prop("disabled", true);
