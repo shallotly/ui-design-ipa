@@ -30,7 +30,7 @@ $(document).ready(function () {
           $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
+          clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
           $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
+          clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -135,7 +135,7 @@ $(document).ready(function () {
           $("#next-button").prop("disabled", false);
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
+          clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -189,7 +189,7 @@ $(document).ready(function () {
 
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
+          clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -242,7 +242,7 @@ $(document).ready(function () {
 
 
           var clientInfo = $("<div></div>");
-          clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer["correct_vowel"]));
+          clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer["correct_vowel"]));
           $("#client-info").append(clientInfo).addClass('red');
         }
 
@@ -312,7 +312,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -363,7 +363,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -420,7 +420,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -470,7 +470,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -527,7 +527,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -577,7 +577,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -635,7 +635,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -685,7 +685,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -742,7 +742,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -792,7 +792,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -849,7 +849,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -899,7 +899,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -967,7 +967,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1018,7 +1018,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1068,7 +1068,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1125,7 +1125,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1175,7 +1175,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1225,7 +1225,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1282,7 +1282,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1332,7 +1332,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1382,7 +1382,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1440,7 +1440,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1490,7 +1490,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1540,7 +1540,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1597,7 +1597,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1647,7 +1647,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1697,7 +1697,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1754,7 +1754,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[0]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1804,7 +1804,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[1]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
@@ -1854,7 +1854,7 @@ $(document).ready(function () {
                   $("#client-info").empty();
                   $("#client-info").removeClass("green, red");
                   var clientInfo = $("<div></div>");
-                  clientInfo.html("Oops! Correcct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
+                  clientInfo.html("Oops! Correct answer is".concat(' ', quiz_answer[2]["correct_vowel"]));
                   $("#client-info").append(clientInfo).addClass('red');
                 }
 
